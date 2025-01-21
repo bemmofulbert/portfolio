@@ -110,7 +110,7 @@ section {
         i {
             font-size: 1.2rem;
             color: var(--color-grey-2);
-            pointer-events: none;
+            /*pointer-events: none;*/
         }
     }
     .active-btn {
@@ -296,14 +296,17 @@ section {
                         height: 100%;
                         background-color: var(--color-secondary);
                         transition: all .4s ease-in-out;
-                        width: 60%;
+                        /*width: 60%;*/
                     }
-                    .html { width: 80%; }
-                    .css { width: 95%; }
-                    .js { width: 75%; }
-                    .react{ width: 60%; }
-                    .node{ width: 87%; }
-                    .python{ width: 70%; }
+                    .html { width: 90%!important; }
+                    .css { width: 95%!important; }
+                    .js { width: 80%!important; }
+                    .angular{ width: 75%!important; }
+                    .vue{ width: 75%!important; }
+                    .node{ width: 87%!important; }
+                    .csharp{ width: 70%!important; }
+                    .asp{ width: 65%!important; }
+                    .sql{ width: 85%!important; }
                 }
             }
         }

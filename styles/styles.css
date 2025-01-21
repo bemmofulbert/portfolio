@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #27AE60;/*#F56692;*/
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -86,7 +86,9 @@ section {
     transform: translateY(0) scaleY(1);
   }
 }
-
+.lang-btn {
+  margin-top: 40px!important;
+}
 .controls {
   position: fixed;
   z-index: 10;
@@ -114,7 +116,7 @@ section {
 .controls .control i {
   font-size: 1.2rem;
   color: var(--color-grey-2);
-  pointer-events: none;
+  /*pointer-events: none;*/
 }
 .controls .active-btn {
   background-color: var(--color-secondary);
@@ -308,23 +310,33 @@ section {
   transition: all 0.4s ease-in-out;
   width: 60%;
 }
+
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
   width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .angular {
-  width: 60%;
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .vue {
+  width: 75%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 60%;
+  width: 87%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .php {
-  width: 75%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .csharp {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .asp {
+  width: 65%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
+  width: 85%;
 }
 
 .stat-title {
@@ -437,6 +449,7 @@ section {
   font-size: 1.5rem;
   color: var(--color-white);
   margin-bottom: 1.5rem;
+  text-align: center;
 }
 .portfolios .portfolio-item .hover-items .icons {
   display: flex;
